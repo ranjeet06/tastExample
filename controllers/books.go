@@ -34,6 +34,7 @@ func FindBooks(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"data": models.DB})
 	}
 	newModule.Hello()
+	newModule.Hello()
 	c.JSON(200, gin.H{"Rate": h.Rate, "Domain": h.Domain})
 
 }
