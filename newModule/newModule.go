@@ -3,5 +3,5 @@ package newModule
 import "fmt"
 
 func Hello() {
-	fmt.Println("i am new module")
+	fmt.Println("i am new nested module")
 }
